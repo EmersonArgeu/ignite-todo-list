@@ -1,0 +1,76 @@
+.taskContainer{
+    display: grid;
+    grid-template-columns: 1.75rem 1fr 1.75rem;
+    padding: 1rem;
+    background: var(--gray-500);
+    margin-top: 1.5rem;
+    border-radius: 8px;
+    
+
+}
+
+.svgContainer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.svgContainer svg{
+    color: var(--gray-300);
+}
+
+.svgContainer svg:hover{
+    color: var(--danger);
+    background: var(--gray-400);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.checkboxContainer input[type="checkbox"]{
+    appearance: none;
+
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid var(--blue);
+    background: transparent ;
+    border-radius: 50px;
+}
+
+
+.checkboxContainer input[type="checkbox"]:not(:checked):hover{
+    opacity: .2;
+    cursor: pointer;
+
+}
+
+.checkboxContainer input[type="checkbox"]:checked {
+    
+    content:url("../../assets/Vector.svg");
+    border-radius: 8px;
+    background: var(--purpleDark);
+    padding: .1rem;
+    border: 2px solid var(--purpleDark);
+    text-decoration: line-through;
+    color: var(--gray-300)
+    
+}
+
+.checkboxContainer input[type="checkbox"]:checked:hover{
+    background: var(--purple);
+    border: 2px solid var(--purple);
+    
+}
+
+.lineThrough{
+    text-decoration: line-through;
+    color: var(--gray-300)
+
+}
+
+.withoutLineThrogh{
+    line-height: 140%;
+    color: var(--gray-100);
+    font-size: .875rem;
+
+}
+
+

@@ -1,0 +1,17 @@
+.withoutTaskContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 140%;
+    color: var(--gray-300);
+    height: 15rem;
+    margin-top: 2rem;
+    border-top: 1px solid var(--gray-400);
+    border-radius: 8px;
+}
+
+.withoutTaskContainer img{
+    margin-bottom: 1rem;
+}
+
