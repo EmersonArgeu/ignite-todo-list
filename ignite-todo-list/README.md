@@ -1,27 +1,61 @@
-# React + TypeScript + Vite
+<h1 align="center">
+  Ignite To Do List
+</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <a href="#gear-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#computer-how-to-run">How to run</a>
+</p>
 
-Currently, two official plugins are available:
+<div align="center">
+<img width="1212" alt="Screen Shot Project" src="https://github.com/EmersonArgeu/ignite-todo-list/assets/115504452/fd592193-ebee-4a45-b110-b20590b605e2">
+ </div>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## :gear: Technologies
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+This project was developed made by me to my class of initial concepts in React, with the following technologies:
 
-- Configure the top-level `parserOptions` property like this:
+  - [ReactJS](https://reactjs.org/)
+  - Vite
+  - CSS
+  - TypeScript
+  
+  And this concepts:
+  
+   - Props
+   - Components
+   - Modules
+   - Immutability
+   - Hooks
+   - State
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+## :computer: How to run
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+  ```bash
+    # clone repository
+    git clone
+
+    # enter web folder
+    cd project-name
+
+    # download dependencies
+    yarn or npm install
+
+    # running web project
+    yarn or npm run dev
+  ```
+
+## :wave: Social
+
+Follow me @Emerson_Argeu :wink:
+<br />
+
+- [Instagram](https://www.instagram.com/emerson_argeu/)
+- [LinkedIn](https://www.linkedin.com/in/emerson-argeu)
+
+<br />
+
+---
+
+[ts]: https://www.typescriptlang.org
